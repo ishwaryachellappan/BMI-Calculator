@@ -1,5 +1,5 @@
-
-function calculateBmi() {
+ <script>
+  function calculateBmi() {
 var weight = document.bmiForm.weight.value
 var height = document.bmiForm.height.value
 if(weight > 0 && height > 0){	
@@ -12,10 +12,11 @@ if(finalBmi > 18.5 && finalBmi < 25){
 document.bmiForm.meaning.value = "That you are healthyand awesome."
 }
 if(finalBmi > 25){
-document.bmiForm.meaning.value = "That you have overweight.no problem u are looking good"
+document.bmiForm.meaning.value = "That you have overweight.no problem you are looking good"
 }
 }
 else{
 alert("Please Fill in everything correctly")
 }
 }
+</script>

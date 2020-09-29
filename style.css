@@ -6,6 +6,7 @@ h1{
 }
 h4,form{
   text-align:center;
+ position:relative;
 }
 body{
   background-color:#808080;
